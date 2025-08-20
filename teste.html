@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout com aside redimensionável</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    header, footer {
+      background: #0077b6;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      display: flex; /* aside + conteúdo lado a lado */
+      overflow: hidden;
+    }
+
+    aside {
+      background: #90e0ef;
+      min-width: 150px;  /* tamanho mínimo */
+      max-width: 400px;  /* tamanho máximo */
+      width: 250px;      /* tamanho inicial */
+      resize: horizontal; /* permite redimensionar na horizontal */
+      overflow: auto;    /* necessário para o resize funcionar */
+      padding: 1rem;
+    }
+
+    .conteudo {
+      flex: 1;
+      background: #f1f1f1;
+      padding: 1rem;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>Header</header>
+
+  <main>
+    <aside>Aside esquerdo</aside>
+    <div class="conteudo">Corpo do conteúdo</div>
+  </main>
+
+  <footer>Footer</footer>
+</body>
+</html>
