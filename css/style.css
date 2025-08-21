@@ -55,8 +55,8 @@ header > div > a:first-child {
   background-color: white;
   border: none;
   color: #000000;
-  padding: 5px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 50px;
 }
 .dropbtn {
   border: none;
