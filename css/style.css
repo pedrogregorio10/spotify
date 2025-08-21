@@ -49,14 +49,15 @@ header > div > a:first-child {
 .dropdown {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 .mobile-btn {
   background-color: white;
   border: none;
   color: #000000;
-  padding: 15px;
-  border-radius: 50px;
+  padding: 17px;
+  border-radius: 60px;
+  font-weight: bold;
 }
 .dropbtn {
   border: none;
