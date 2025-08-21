@@ -139,11 +139,8 @@ article {
 }
 
 .section .carrossel li img{
-    flex-grow: 1;
     border-radius: 10px;
-    height: 100%;
 }
-
 
 footer {
     width: 100%;
