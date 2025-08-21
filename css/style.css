@@ -132,15 +132,18 @@ article {
 .section .carrossel{
     display: flex;
     overflow-x: auto;
-    gap: 10px;
-
+    scrollbar-width: none;
+    gap: 15px;
     padding: 20px;
-    height: 150px;
 }
-
+.section .carrossel li{
+  height: 150px;
+}
 .section .carrossel li img{
     border-radius: 10px;
+    height: 100%;
 }
+
 
 footer {
     width: 100%;
