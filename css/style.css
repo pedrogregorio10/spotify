@@ -127,6 +127,7 @@ article {
 .section{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .section .carrossel{
@@ -134,7 +135,7 @@ article {
     overflow-x: auto;
     scrollbar-width: none;
     gap: 15px;
-    padding: 20px;
+    padding: 15px 0;
 }
 .section .carrossel li{
   height: 150px;
