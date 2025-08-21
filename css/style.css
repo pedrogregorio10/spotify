@@ -133,8 +133,13 @@ article {
     display: flex;
     overflow-x: auto;
     scrollbar-width: none;
+    gap: 15px;
+    padding: 20px;
 }
 
+.section .carrossel li img{
+    border-radius: 10px;
+}
 
 
 footer {
