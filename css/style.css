@@ -138,10 +138,12 @@ article {
     padding: 15px 0;
 }
 .section .carrossel li{
-
+    height: 160px;
+    background-color: red;
 }
 .section .carrossel li img{
     border-radius: 10px;
+    height: 80%;
     
 }
 
