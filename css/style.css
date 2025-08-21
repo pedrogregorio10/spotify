@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: beige;
+  
 }
 ul {
   list-style: none;
@@ -129,7 +130,6 @@ article {
 
 .section .carrossel{
     display: flex;
-    flex: 1;
     overflow-x: auto;
     scrollbar-width: none;
 }
