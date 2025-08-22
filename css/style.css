@@ -389,6 +389,7 @@ hr{
 footer {
   padding:20px 10px 10px 0px;
   background-color: #35353527;
+  position: sticky;
 }
 footer nav ul{
     margin: auto;
