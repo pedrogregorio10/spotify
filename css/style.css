@@ -176,6 +176,7 @@ aside {
    border: none;
    background-color:#383838ab;
   transition: 0.4s;
+  display: none;
 }
 .container-carrossel button:hover{
   background-color: #747474d2;
@@ -187,6 +188,7 @@ aside {
   color: rgba(255, 255, 255, 0.767);
 }
 .prev{
+
   left: 10px;
 }
 .next{
@@ -379,6 +381,10 @@ hr{
     border-radius: 10px;
     overflow-y: auto;
     flex: 1;
+  }
+
+  .container-carrossel button{
+    display: block;
   }
   
 }
