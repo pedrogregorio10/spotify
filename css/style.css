@@ -17,6 +17,7 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 header {
   flex: 0 0 auto;
