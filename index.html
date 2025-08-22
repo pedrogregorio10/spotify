@@ -21,14 +21,18 @@
                 <a href="index.html"><i class="fa-brands fa-spotify"></i> </a>
                 <a href="index.html"><i class="fa-solid fa-house"></i></a>
 
-                <form action="">
-                    <input type="search" name="" id="">
-                    <button type="submit"><i class="fa-light fa-globe-pointer"></i></button>
+                <div class="form">
+                     <button class="btn-s" id="btn-form" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <form action="" id="form">
+                        <input type="search" name="" id="" placeholder="O que voce quer">
+                        <button class="btn-s" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
+                </div>
                 </div>
                     <nav class="dropdown">
                         <button class="mobile-btn">Abrir app</button>
                         <button class="dropbtn" id="dropbtn"><i class="fa-solid fa-bars"></i></button>
+                
                         <ul class="drop-content" id="drop-content">
                             <li class="close-btn" id="close-btn"><button><i class="fa-solid fa-xmark"></i></button></li>
                             <li><a href="#">Premiun</a></li>
@@ -42,7 +46,11 @@
                 
             </header>
             <main>
-                <aside>aside esquerdo</aside>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid qui nihil velit ex excepturi itaque. Tempore beatae alias ipsum illo ad veritatis accusantium debitis inventore eos rem, quaerat velit exercitationem!</p>
+               
+                
+                </aside>
 
                 <article>
                 <section class="section section-1">
@@ -382,6 +390,14 @@
 
             btn.addEventListener('click',()=>{
                 dropcontent.classList.toggle('show')
+            })
+
+
+            const btnform = document.getElementById("btn-form")
+            const form = document.getElementById("form")
+
+            btnform.addEventListener("click", ()=>{
+                form.classList.toggle('aparecer')
             })
         </script>
 </body>
