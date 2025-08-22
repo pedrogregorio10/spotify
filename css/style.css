@@ -21,6 +21,7 @@ a {
 }
 header {
   position: sticky;
+  top: 0;
   background-color: #35353562;
   padding: 10px;
   display: flex;
@@ -391,6 +392,7 @@ footer {
   padding:20px 10px 10px 0px;
   background-color: #35353527;
   position: sticky;
+  bottom: 0;
 }
 footer nav ul{
     margin: auto;
