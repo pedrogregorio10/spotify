@@ -20,7 +20,7 @@ a {
   overflow: hidden;
 }
 header {
-  flex: 0 0 auto;
+  position: sticky;
   background-color: #35353562;
   padding: 10px;
   display: flex;
@@ -391,7 +391,6 @@ footer {
   padding:20px 10px 10px 0px;
   background-color: #35353527;
   position: sticky;
-  flex: 0 0 auto;
 }
 footer nav ul{
     margin: auto;
